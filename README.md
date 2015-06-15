@@ -1,8 +1,8 @@
-#Hydrodynamic Simulation
+#Hydrodynamic Simulator
 
 ![](screenshots/crater%20flood.png)
 
-HDS is an hydrodynamic simulator developed in C++ and OpenGL 4. It parses a `.hds` map file to interpolate a landscape on which water will flow in different scenarios. 
+HDS is a hydrodynamic simulator that reproduces water behaviuor in different contests anbd landscape (parsed dynamically from a .hds file). At the moment rain, flood, drainage, waves and tsunami scenarios are implemented. It's built with C++ and OpenGL 4.0.
 
 #Configuration
 
@@ -83,8 +83,7 @@ Map file should end with *.hds* extension and should have the following format:
 
 `x:<0:col> y:<0:> z:<0:row>`
 
-You can add as many height points as you like. As we work in a three dimensional space, the y coordinate indicates the actual height.
-
+You can add as many height points as you like (y coordinate represent the height).
 Feel free to create your own map and to share it on this github repository.
 
 #Source tree
