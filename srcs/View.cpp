@@ -35,7 +35,6 @@ View::~View(void)
 	{
 		delete this->_shader;
 	}
-	return;
 }
 
 /*******************************************

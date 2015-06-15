@@ -100,12 +100,6 @@ void			WaterBorders::createColors(void)
 	}
 }
 
-void			WaterBorders::createElements(void)
-{
-	
-}
+void			WaterBorders::createElements(void) { }
 
-void			WaterBorders::createNormals(void)
-{
-	
-}
+void			WaterBorders::createNormals(void) { }

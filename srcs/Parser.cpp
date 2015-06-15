@@ -14,7 +14,6 @@ Parser::Parser(Model & model, char const * scenario, char const * path) : _model
 	this->checkPath(path);
 	this->parse();
 	this->checkBounds();
-	return;
 }
 
 /*******************************************

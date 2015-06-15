@@ -12,7 +12,6 @@ Terrain::Terrain(Model & model) : AModule(model)
 	this->_colorsSize = this->_model._grid * COLOR_CHANNELS;
 	this->_normalsSize = this->_verticesSize;
 	this->_elementsSize = this->_model._grid + (this->_model._vertexCol - 1) * (this->_model._vertexRow - 2);
-
 	this->createVertices();
 	this->inverseWeightedDistance();
 	this->createColors();
@@ -35,7 +34,6 @@ Terrain::~Terrain(void)
 	{
 		delete [] this->_elements;
 	}
-	return;
 }
 
 /*******************************************
@@ -119,7 +117,6 @@ void			Terrain::createColors(void)
 		this->_colors[i + 1] = 0.5f + 0.42f * this->_vertices[j] / height;
 		this->_colors[i + 2] = 0.25f + 0.25 * this->_vertices[j] / height;
 		this->_colors[i + 3] = 1.0f;
-
 		j += DIMENSIONS;
 	}
 }

@@ -41,7 +41,6 @@ Model::~Model(void)
 	{
 		delete this->_drop;
 	}
-	return;
 }
 
 /*******************************************

@@ -11,8 +11,7 @@
 	Constructors
 *******************************************/
 
-GLObject::GLObject(AModule const & module, Shader const & shader) :
-_module(module), _shader(shader)
+GLObject::GLObject(AModule const & module, Shader const & shader) : _module(module), _shader(shader)
 {
 	this->generateVAO();
 	this->generateCBO();
@@ -42,7 +41,6 @@ _module(module), _shader(shader)
 		this->generatePBO();
 		glVertexAttribDivisor(this->_shader.getAInstance(), 1);
 	}
-	return;
 }
 
 /*******************************************

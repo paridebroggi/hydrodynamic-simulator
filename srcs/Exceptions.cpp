@@ -22,10 +22,7 @@ MODExceptions::~MODExceptions(void) throw()
 
 MODExceptions &		MODExceptions::operator=(MODExceptions const & rhs)
 {
-	if (this != &rhs)
-	{
-
-	}
+	if (this != &rhs) { }
 	return *this;
 }
 

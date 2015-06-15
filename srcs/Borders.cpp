@@ -118,7 +118,4 @@ void			Borders::createColors(void)
 	}
 }
 
-void			Borders::createElements(void)
-{
-	
-}
+void			Borders::createElements(void) { }
