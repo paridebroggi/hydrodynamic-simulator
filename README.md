@@ -37,11 +37,11 @@ During the simulation you can press the following keys:
 
 `-` zoom out
 
-`v`: start draining the water out of the scene
+`d`: start draining the water out of the scene
 
-`f`: restart the simulation as a 'flood' scenario
+`f`: restart the simulation as a flood scenario
 
-`w`: trigger a wave
+`w`: trigger gentle waves scenario
 
 #Usage
 
