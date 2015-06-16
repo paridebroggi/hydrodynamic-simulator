@@ -2,7 +2,7 @@
 
 ![](screenshots/crater%20flood.png)
 
-HDS is a hydrodynamic simulator that reproduces water behaviuor in different contests anbd landscape (parsed dynamically from a .hds file). At the moment rain, flood, drainage, waves and tsunami scenarios are implemented. It's built with C++ and OpenGL 4.0.
+HDS is a hydrodynamic simulator that reproduces water behaviuor in different contests and landscape (parsed dynamically from a .hds file). At the moment rain, flood, drainage, waves and tsunami scenarios are implemented. It's built with C++ and OpenGL 4.0.
 
 #Configuration
 
