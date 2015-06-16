@@ -98,7 +98,7 @@ Contains GLEW and GLFW3 static libraries.
 Contains the C++ source code.
 
 `maps/`
-Contains a set of maps used by the programm.
+Contains a set of maps used by the program.
 
 #Licence:
 
